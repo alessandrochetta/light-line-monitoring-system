@@ -15,9 +15,7 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
   color: #2c3e50;
 }
 
@@ -103,20 +101,20 @@ a:active {
 }
 
 .row-button{
-  height: 16px;
-  padding: 0px 5px;
-  font-size: 9pt;
-  margin: 0 5px;
+  height: 16px !important;
+  padding: 0px 5px !important;
+  font-size: 9pt !important;
+  margin: 0 5px !important;
 }
 
 .color-picker{
-  vertical-align: middle;
+  vertical-align: middle !important;
 }
 
 .el-color-picker__trigger{
-  width: 100%;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  width: 100% !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
 }
 
 .color-picker{
